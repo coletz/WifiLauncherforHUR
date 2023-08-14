@@ -41,4 +41,6 @@
     <string name="ignore_bt">Ignore BT disconnect</string>
     <string name="ignore_bt_desc">Keep the service running even after BT handsfree have been disconnected. You will need to manually quite the service in this case.</string>
     <string name="service_starter_activity">Start Wi-Fi Service</string>
+    <string name="service_starter_shortcut_short_label">WiFi Service</string>
+    <string name="service_starter_shortcut_long_label">Start Wi-Fi Service</string>
 </resources>

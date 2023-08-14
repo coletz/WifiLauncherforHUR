@@ -42,5 +42,7 @@
         <string name="auto_reconnect_desc">Intentar reconectar automáticamente en caso de desconexión siempre que el dispositivo Bluetooth seleccionado siga conectado.</string>
         <string name="ignore_bt">Ignorar desconexión de BT</string>
         <string name="ignore_bt_desc">Mantener el servicio en ejecución incluso después de que se haya desconectado el dispositivo Bluetooth manos libres. En este caso, deberá cerrar manualmente el servicio.</string>
-    <string name="service_starter_activity">Iniciar el servicio Wi-Fi</string>
+        <string name="service_starter_activity">Iniciar el servicio Wi-Fi</string>
+        <string name="service_starter_shortcut_short_label">Servicio WiFi</string>
+        <string name="service_starter_shortcut_long_label">Iniciar el servicio Wi-Fi</string>
 </resources>

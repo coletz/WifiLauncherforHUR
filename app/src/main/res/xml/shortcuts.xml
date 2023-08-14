@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="start_wifi_service"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/service_starter_shortcut_short_label"
+        android:shortcutLongLabel="@string/service_starter_shortcut_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.borconi.emil.wifilauncherforhur"
+            android:targetClass="com.borconi.emil.wifilauncherforhur.activities.ExportedServiceStarterActivity" />
+        <!-- android.shortcut.conversation seems to be the only available category -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
