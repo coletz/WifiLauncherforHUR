@@ -62,7 +62,8 @@
             android:excludeFromRecents="true"
             android:noHistory="true"
             android:showWhenLocked="true"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/AppTheme.Transparent">
         </activity>
 
 
