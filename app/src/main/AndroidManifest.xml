@@ -53,9 +53,19 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".activities.ExportedServiceStarterActivity"
+            android:label="@string/service_starter_activity"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:showWhenLocked="true"
+            android:exported="true">
+        </activity>
+
 
         <service
             android:name=".services.WifiService"
+            android:exported="true"
             android:foregroundServiceType="mediaProjection" />
 
 
